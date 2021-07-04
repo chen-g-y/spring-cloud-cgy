@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-cgy-samples" />
+        <module name="spring-cloud-starter-cgy-web" />
+        <module name="spring-cloud-starter-cgy-config" />
+        <module name="spring-cloud-cgy-gateway" />
+        <module name="spring-cloud-cgy-client" />
+        <module name="spring-cloud-starter-cgy-data-mybatisplus" />
+        <module name="spring-cloud-cgy-common" />
+        <module name="spring-cloud-cgy-discovery" />
+        <module name="spring-cloud-cgy-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-cgy-config" target="1.5" />
+      <module name="spring-cloud-cgy-discovery" target="1.8" />
+      <module name="spring-cloud-cgy-web" target="1.5" />
+      <module name="spring-cloud-starter-cgy-discovery" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-cloud-cgy-client" options="-parameters" />
+      <module name="spring-cloud-cgy-common" options="-parameters" />
+      <module name="spring-cloud-cgy-dependencies" options="-parameters" />
+      <module name="spring-cloud-cgy-discovery" options="-parameters" />
+      <module name="spring-cloud-cgy-gateway" options="-parameters" />
+      <module name="spring-cloud-cgy-parent" options="-parameters" />
+      <module name="spring-cloud-cgy-samples" options="-parameters" />
+      <module name="spring-cloud-cgy-service" options="-parameters" />
+      <module name="spring-cloud-starter-cgy-config" options="-parameters" />
+      <module name="spring-cloud-starter-cgy-data-mybatisplus" options="-parameters" />
+      <module name="spring-cloud-starter-cgy-web" options="-parameters" />
+    </option>
+  </component>
+</project>
